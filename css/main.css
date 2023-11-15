@@ -104,11 +104,13 @@ a {
 .m-headerLink__item:last-child {
     padding: 8px 16px;
     background-color: var(--mainColor);
+    background-color: #FCE5B3;
     border-radius: 4px;
     color: white;
 }
 .m-headerLink__item:last-child .a-headerLink__text{
     color: var(--mainBackground);
+    color: #542706;
 }
 
 .m-headerButton {
