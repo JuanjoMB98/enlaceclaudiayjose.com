@@ -1,5 +1,5 @@
 :root {
-    --mainColor: red;
+    --mainColor: #542706;
     --mainBackground: #FCF9F4;
 }
 
@@ -145,8 +145,8 @@ a {
     flex: 1;
 }
 .m-heroSection__image img{
-    object-fit: cover;
-    object-position: 70% center;
+    object-fit: contain;
+    /* object-position: 70% center; */
 }
 .m-countDown{
     display: flex;
@@ -253,6 +253,8 @@ a {
 .m-infoSection__image{
     display: flex;
     flex-direction: column;
+    max-width: 600rem;
+    border-radius: 6rem;
 }
 .m-infoSection__image{
     display: flex;
