@@ -3,8 +3,8 @@
         minute = second * 60,
         hour = minute * 60,
         day = hour * 24;
-        
-    birthday = "04/06/2024"
+
+    birthday = "06/29/2024";
 
     const countDown = new Date(birthday).getTime(),
         x = setInterval(function () {
@@ -36,8 +36,6 @@
         }, 0);
 })();
 
-
-
 $(document).ready(function () {
     $(".js-headerButton").on("click", function () {
         $(this).attr("aria-expanded", function (i, attr) {
@@ -51,7 +49,4 @@ $(document).ready(function () {
 
         console.log({ visibility });
     });
-    
-
-    
 });

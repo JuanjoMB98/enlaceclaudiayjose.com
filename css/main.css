@@ -3,10 +3,12 @@
     --mainBackground: #FCF9F4;
 }
 
+
 html {
     font-size: 1px;
     background-color: #fcf9f4;
     scroll-behavior: smooth;
+    scroll-padding-top: 120rem ;
 }
 
 :where(*) {
@@ -302,8 +304,11 @@ a {
 .o-formSection{
     padding: 32rem;
     border-radius: 15rem;
-    overflow: none;
-    border: 2px solid var(--mainColor);
+    /* border: 2px solid var(--mainColor); */
+    margin: 0 auto ;
+}
+.o-formSection iframe {
+    height: 1500px;
 }
 
 
@@ -426,6 +431,17 @@ a {
     }
     iframe{
         width: 100%;
+    }
+    .o-formSection{
+        padding: 0rem;
+        margin: 0;
+        width: 100%;
+    }
+    .o-formSection iframe {
+        height: 2000px;
+    }
+    .m-heroSection__image img {
+        object-position: 70% 35%;
     }
 
 }
