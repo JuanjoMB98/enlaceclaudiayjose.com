@@ -349,6 +349,9 @@ a {
 
 @media (max-width: 720px) {
     /* || NAVEGADOR RESPONSIVE -----------------------------------------------*/
+    html {
+        scroll-padding-top: 0rem ;
+    }
     .o-mainHeader{
         padding: 24rem;
     }
