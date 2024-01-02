@@ -149,6 +149,14 @@ a {
     color: #542706;
     margin: 0;
 }
+.a-heroSubTitle{
+    font-family: 'Petit Formal Script';
+    font-size: clamp(18rem, 5vw, 24rem);
+    text-align: center;
+    color: var(--mainColor);
+    color: #542706;
+    margin: 0;
+}
 .m-heroSection__image{
     flex: 1;
 }
